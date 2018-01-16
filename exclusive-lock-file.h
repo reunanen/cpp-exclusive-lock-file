@@ -1,3 +1,6 @@
+#ifndef EXCLUSIVE_LOCK_FILE_H
+#define EXCLUSIVE_LOCK_FILE_H
+
 #include <string>
 
 class exclusive_lock_file
@@ -19,3 +22,5 @@ private:
     // TODO
 #endif // _WIN32
 };
+
+#endif // EXCLUSIVE_LOCK_FILE_H
