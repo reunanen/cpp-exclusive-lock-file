@@ -19,8 +19,8 @@ private:
 #ifdef _WIN32
     const void* lock;
 #else
-    // TODO
-#endif // _WIN32
+    int fd;
+#endif
 };
 
 #endif // EXCLUSIVE_LOCK_FILE_H
